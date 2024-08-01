@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    src: url('../font/proxima/Fontspring-DEMO-proximanova-regular.otf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../font/proxima/Fontspring-DEMO-proximanova-bold.otf');
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../font/Myriad/MYRIADPRO-REGULAR.woff');
+}
+
+@font-face {
+    font-family: 'Myriad Pro Bold';
+    src: url('../font/Myriad/MYRIADPRO-BOLD.woff');
+}
+
+@font-face {
+    font-family: 'Avenir Next Rounded Std';
+    src: url('../font/Avenir/AvenirNextRoundedStd-Reg.woff');
+}

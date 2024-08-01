@@ -1,0 +1,994 @@
+*{padding: 0;}
+:root{
+    --qirmizi:#bf4800;
+    --goy: #0071E3;
+}
+nav > ul{
+    display:flex;
+    list-style: none;
+    font-family: Helvetica, Arial, sans-serif;
+    justify-content: space-between;
+}
+li{
+    align-content: center;
+}
+nav > ul  a{
+    color: (0, 0, 0, 0.8); 
+    font-size: 12px;
+}
+nav{
+    width: 80%;
+    margin: auto;
+    height: 44px;
+    padding: 10px 0;
+}
+body{
+    background: #f2f2f2;
+}
+div > ul img,.accessories img{
+    max-width: 56px;
+    display: block;
+    max-height: 54px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+div > ul>li{
+    width: 98.8px;
+    height: 92px;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+div > ul{
+    display: flex;
+    justify-content:space-around;
+    margin: 0 75px;
+}
+header div{
+    padding: 10px 20px;
+    background: white;
+}
+span>b{
+    color: var(--qirmizi);
+}
+.hamburger{
+    display: none;
+}
+h6 span{
+    color:var(--qirmizi);
+}
+h6{
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.accessories {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    gap: 10px;
+    overflow-x: auto; 
+    white-space:nowrap;
+}
+.accessories::-webkit-scrollbar {
+    display:none;
+}
+.mobilenav{
+    display: none;
+}
+div ul li:hover span{
+    color: #06c;
+}
+.title{
+    text-align: center;
+    max-width: 653px;
+    margin: auto;
+    background: transparent;
+    font-size: 21px;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 30px 0;
+}
+.title a{
+    color: var(--goy);
+}
+.title i{
+    margin-left: 5px;
+}
+.qirmizi{
+    color: var(--qirmizi);   
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;font-weight: 600;
+}
+.iphone15pro{
+    text-align: center;
+    background: black;
+    position: relative;
+    height: 800px;
+    padding: 100px 0;
+}
+.boyuk{
+    font-size: 21px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #f5f5f7;
+    padding: 25px 0;
+}
+#pro15{
+    width: 140px;
+    margin: auto;
+    padding-top: 10px;
+}
+#titanium{
+    width: 283px
+    ;margin: auto;
+    padding: 10px 0 20px;}
+.iphone15pro img{
+    display: block;
+}
+#iphone{
+    width: 1000px;
+    position: absolute;
+    right: 0;
+    bottom: 100px; 
+}
+.btn{
+    width: 61px;
+    height: 35px;
+    border-radius: 25px;
+    background: var(--goy);
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 30px 0;
+    padding: 7px 15px;
+    margin: 30px ;
+    line-height: 80px;
+
+}
+.learn{
+    font-family: Helvetica, Arial, sans-serif;
+    color:var(--goy);
+    font-size: 21px;
+    line-height:30px ;
+}
+.iphone15{
+    text-align: center;
+    background: white;
+    padding:77px 0 ;
+    width: 100%;
+    height: 100%;
+}
+.iphone15>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.iphone15>span{
+    margin: 30px 0;
+}
+.boyuk1{
+    color: #1d1d1f !important;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    position: relative;
+    padding: 30px 0;
+}
+#iphone15{
+    padding: 100px 0;
+    margin-right: 500px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#pro15{
+    display: block;
+    padding: 20px 0;}
+.SE>.row{
+    display: flex
+    ;padding: 10px 0;
+     background: white;
+    }
+.SE .col{
+    width:100%; 
+    text-align: center; 
+    margin-top: 0px; 
+    padding: 0;
+}
+.SE .col>div{
+    margin-top:250px ; 
+    padding: 100px 0;
+}
+#uciphone{
+    max-width: 100%;
+    margin: auto
+}
+.SE .col1{  
+    padding: 0;
+}
+.SE h3{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(45deg,#1e3791 0%,#2948b1 40%,#3153c6 55%,#385fda 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    margin-bottom: 30px;
+   
+}
+#iphonese{
+    width: 96px;
+    margin-bottom: 30px;
+}
+.qara{
+    width: 95%;
+    margin: auto;
+    height: 100vh;
+    border-radius: 30px;
+    background: url(/img/bg1.jpg) center/cover ;
+}
+.qara h4{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px; 
+    position: relative;
+}
+.qara h6{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    margin: 10px 0 30px 0;
+
+}
+#watch{
+    width: 141px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 7px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 20px    ;
+
+}
+.contain{
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    transform: translateX(200px) translateY(300px);
+}
+.ip15pro{
+    width: 50%;  
+    text-align: center; 
+    margin:0 40px ;
+}
+.reng{
+    height: 14px; 
+    margin:15px 0 5px 0;
+}
+.pro15dvc{
+    height: 180px;
+    /* width: 80%; */
+}
+.ad{
+    height: 20px;
+}
+.ip15pro h5{
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #1d1d1f;
+    font-weight: 400;
+    margin: 10px 0 30px 0;
+    }
+.ab{
+    font-size: 14px ;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 5px;
+}
+.cardbtn{
+    width: 46.33px;
+    height: 23.33px;
+    border-radius:20px ;
+    background: var(--goy);
+    padding: 3px 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+    line-height: 50px;
+    margin: 30px 0;
+}
+.xettt{
+    border: 1px solid transparent;
+    width: 90%;
+    background: #d2d2d7; 
+    margin: 30px 0;}
+.cardlearn{
+    font-size: 14px ; 
+    color: var(--goy); 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:11px;
+}
+.ip15pro h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #1d1d1f;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.suse{
+    width: 55px;
+    margin: 68px 0 5px 0;
+}
+.suse+.ab{
+    margin-bottom: 20px;
+}
+.ekran{
+    width: 38px; 
+    margin: 68px 0 10px 0;
+}
+.ex{
+    color: #6E6E73;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px;
+}
+.chip{
+    width: 38px; 
+    margin:68px 0 10px 0 ;
+}
+.camera{
+    width: 36px;
+    margin:68px 0 10px 0 ;
+}
+.up{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:50px ;
+    display: block;
+}
+.zoom{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.sos{
+    width: 39px;
+    margin: 68px 0 10px 0;
+}
+.battery{
+    height: 22px;
+    margin: 68px 0 10px 0;
+}
+.typec{
+    height: 17px;
+    margin: 68px 0 10px 0;
+}
+.faceid{
+    width: 38px; 
+    margin:68px 0 10px 0 ;
+}
+.container{
+    width: 95%; 
+    display: flex;
+    justify-content: space-evenly; 
+    margin: auto; 
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.roww {
+    display: flex; 
+    justify-content: space-around; 
+}
+.margin{
+    margin-top: 65px;
+}
+.margin1{
+    margin-top: 87px;
+}
+.marginbttm{
+    margin-bottom: 75px;
+}
+.marginmny{
+    margin: 38px 0 30px 0 !important;
+}
+.margin0{
+    margin:0 0 15px 0 !important;
+}
+h1{
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    text-align: center; 
+    padding: 116px 0;
+}
+.bgag{
+    background: white;
+}
+.lnk{
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #06c;
+    padding-right: 40px;
+    padding-top: 50px;
+    
+}
+.card{
+    width: 30%;
+    text-align: center;
+    margin: 10px 5px;
+}
+.smile{
+    width: 172px;margin: auto;
+}
+.card h2{
+    font-size: 24px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+    padding: 50px 0 30px 0 ;
+}
+.imgcontainer{
+    width: 100%;
+}
+.imgcontainer img{
+    width: 100%; 
+    margin: 30px 0;
+    overflow: hidden;
+    height: 100%;
+}
+.center{
+    text-align: center; 
+    padding-bottom: 50px;
+}
+.cardlnk{
+    color: #06c;font-size: 17px;
+    line-height: 1.4705882353;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 30px 0 17px 0;
+    display: block;
+}
+.basliq{
+    font-size: 12px;
+    color: #6e6e73;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-top: 60px;
+    display: block;
+    font-weight: 500;
+}
+.ikinci{
+    padding: 20px 0 50px 0!important;
+}
+.futured+.container{
+    flex-wrap: nowrap;
+}
+.son{
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #6e6e73;
+    max-width: 235px; 
+    margin-bottom: 40px;
+    display: inline-block;
+}
+.card13{
+    height: 300px;
+}
+ i{font-size: 16px;
+padding-left: 5px;}
+.card13 img{
+    height: 100%;
+    width: 80%; 
+    margin: auto;
+}
+.card3{
+    color: rgb(29, 29, 31);
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+.selection{
+    background: url(/img/selection1.jpg)center/cover;
+    width: 100%;
+    margin: auto;
+    margin: 30px 0;
+}
+.sa{
+    width: 91%;
+    margin: auto;
+}
+.wrapper{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 300px;
+    
+}
+.wrapper h1{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(29, 29, 31);
+    padding: 100px 0 30px 0;
+}
+.wrapper h3{
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(29, 29, 31); 
+}
+.futured{
+    text-align: center;
+    margin: 20px 0;
+}
+.futured h3{
+    font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(29, 29, 31); 
+    padding: 100px 0;
+}
+.yazi{
+    text-align: center;
+    width: 50%;
+    padding-bottom: 100px;
+   
+}
+.yazi,.yazi1 h5{
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(29, 29, 31);
+    padding:140px 0 30px 0
+}
+.metn{
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(29, 29, 31);
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.sekil {
+    width: 50%;
+}
+.sekil img{
+    width: 100%;
+margin-top: 30%;
+}
+
+.sklwrapper{
+    width: 100%;
+}
+.sklwrapper img{
+    width: 100%;
+}
+.yazi1{
+   text-align: center;
+}
+.yazi1 a{
+    padding-right: 20px;
+}
+.skll{
+    width: 50%;
+}
+.skl{
+    display: none;
+}
+.section2{
+    background: url("/img/section2.jpg")center;
+    width: 90%;
+    height: 85vh;
+    margin: 90px 0;
+    background-position: center;
+    background-size: cover;
+}
+.section2 h1{
+    padding: 60px 0 30px;
+} 
+.section3{
+    text-align: center;
+    padding: 50px 0; 
+    height: 100%
+}   
+.crd1{
+    width: 300px;
+    text-align: center; 
+    margin: 70px 0px 0 0px;
+}
+.icon{
+    height: 75px; 
+    margin: 50px 0 30px 0 ;
+}
+.o{
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family:  Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+}
+.bu{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d1d1f;
+    padding-bottom: 15px;
+}
+.container2{
+    display: flex;  
+    justify-content:space-around; 
+    flex-wrap: wrap;
+    height: 100%;
+}
+.section4 .container3{
+    margin:15px 0  ;
+    background: url(/img/section31.jpg)center/cover; 
+    height: 90vh;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+.container3 h3{
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+    padding-top: 50px;
+}
+.container3 h5{
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+}
+.section4 h1{font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 116px 0 70px 0;
+}
+.ikihisse{
+    width: 45%;
+    text-align: center;
+}
+.bg{
+    background: url(/img/ikihisse11\ \(2\).jpg)center/cover;
+}
+.ikihisse h1{
+    padding: 50px 0 30px;
+}
+.ikihisse .sklwrapper{
+    margin-top: 50px;
+}
+.wrapper1{
+    height: 100%; 
+    margin: 150px 0; 
+    text-align: center;
+}
+.icons{
+    width: 45%;
+}
+.wrapper1 img{
+    width: 100%;
+}
+.one{
+    height: 100px; 
+    display:block ; 
+    margin: auto; 
+    margin-top: 180px; 
+    margin-bottom: 30px;
+}
+.icontext{
+    width: 45%; 
+    text-align: center;
+}
+.icontext span{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    line-height: 1.1428571429;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.tv{
+    background: #090a0e;
+}
+.tv,.music{
+    width: 45%;
+    text-align: center;
+    color: white; 
+    height: 100%;
+}
+.tv,.music a{
+    display:inline-block; 
+}
+.tv,.music span{
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-bottom: 15px;
+    
+}
+.music img{
+    width: 154px; 
+    margin: 50px 0 20px; 
+    display: inline-block;
+}
+.music{
+    background: #440f0d;
+    padding-bottom: 4.5%;
+}
+.tv img{
+    width: 98px; 
+    margin: 50px 0 20px;
+}
+.river1,.river2{
+    width: 100% !important;
+    
+}
+.icontext a{
+    padding: 15px 15px;
+}
+.contain1{
+    display: none;
+}
+.roww2{
+    width: 45%;
+}
+.roww2 a{
+    margin: 15px;
+    display: inline-block;
+}
+.roww2{
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 0 !important;
+}
+.px40{
+    height: 40px; 
+    margin: 50px 0 20px 0;
+}
+.fitnes,.arcade{
+    width: 100% !important;
+}
+.intro{
+    width: 50%;
+    text-align: center;
+}
+.intosekil{
+    width: 50%;
+}
+.studies{
+    width: 100%;
+}
+.container5{
+    display: flex;
+    width: 89%;
+    margin: auto;
+    margin-top: 30px;
+}
+.textcontainer{
+    width: 100%;
+    margin-top: 30px;
+    background: rgb(245, 245, 247);
+}
+.text{
+    width: 80%;
+    margin: auto; 
+    text-align: justify;
+}
+.text p{
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: rgba(0, 0, 0, 0.56);
+}
+.size{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 12px;
+}
+.intro h1{
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 20% 0 10px  0;
+}
+.intro h3{
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+footer{
+    background: rgb(245, 245, 247);
+}
+.grid_container{
+    display: grid;width: 80%;margin: auto;
+    grid-template-columns: 15% 15% 15% 15% 15%; 
+    gap: 15px;
+    justify-content: space-between;
+}
+.son1{
+    width: 80%;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.72); 
+    padding: 10px 0 ; 
+    font-size: 12px;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+.son1 i{
+    margin: 0 5px;
+}
+.son1 i+i{
+    font-size: 10px;
+}
+.hover:hover{
+    color: #1d1d1f;
+}
+b{  
+    font-size: 12px;
+    line-height: 1.33337;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+.a{
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.72);
+}
+.a:hover{
+    text-decoration: underline;
+}
+.footer_container{
+    display: none;
+}
+.ftr{
+    font-size: 12px;
+    line-height: 1.33337;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.88);
+}
+.right{
+    float: right;
+}
+@media only screen and (max-width: 768px) {
+    .footer_container{
+        display: block;
+        width: 80%;
+        margin: auto;
+        background: rgb(245, 245, 247);
+    }
+    .grid_container{
+        display: none;
+    }
+    *{
+        max-width: 768px;
+    }
+    .music,.tv,.roww2{
+        width: 100%;
+    }
+    .ikihisse{
+        width: 100%;
+        height: 80vh;
+    }
+    .contain1{
+        display: block; 
+        text-align: center; 
+        color: #1d1d1f;
+    }
+    .contain1 a{
+        margin: auto;
+        display: block;
+    } 
+    .contain1 h4{
+        color:black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px; 
+        position: relative;
+        padding-top: 30px;
+    }
+    .contain1 h6{
+        color:black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 48px;
+        margin: 10px 0 30px 0;
+    }
+    
+    .icontext,.icons{
+        width: 100%;
+    }
+    .icons{
+        order: 1;
+    }
+    .skll{
+        display: none;
+    }
+    .skl{
+        display: initial;
+        width: 100%;    
+        margin-top: 30px;
+    }
+    .skl img{
+        width: 100%;
+    }
+    .sekil,.yazi{
+        width: auto;
+    }
+    .card{
+        width: 90%;
+        margin:15px 20px 
+    }
+   .contain{
+        transform: translateX(0)translateY(30%) ; 
+        display: none;
+    }
+    div>ul{
+        flex-wrap: wrap;
+    }
+    nav > ul  a{
+        display: none;
+    }
+    .accessories{
+        display: flex;
+    }
+    .iphones{
+        display: none;
+    }
+    .hamburger{
+        display: inline;
+    }
+    #iphone{
+        rotate: 90deg;
+        padding-top: 10px;
+        padding-left: 100px;
+        bottom: 300px;
+        width: 492px;
+        left: 0;
+        margin: auto;
+    }
+    .iphone15pro{
+        height: 1000px;
+    }
+    .SE .row{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
